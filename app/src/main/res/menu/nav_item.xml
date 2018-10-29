@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/first"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="알림판"/>
+            <item
+                android:id="@+id/second"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="오늘의 포토"/>
+            <item
+                android:id="@+id/third"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="정보 사항"/>
+
+        </menu>
+    </item>
+    <item android:title="기타사항">
+        <menu>
+            <item
+                android:id="@+id/fourth"
+                android:icon="@android:drawable/ic_menu_report_image"
+                android:title="정기 보고서"/>
+        </menu>
+    </item>
+</menu>
